@@ -2,15 +2,39 @@
 <html>
 <head>
 <meta charset='utf-8'>
-<title>박하늘</title>
 <style>
+*{padding: 0px; margin: 0px;}
+header, nav, section, aside, footer {
+    border: solid 2px gray;
+}
+.clear {clear: both;}
+header {width: 1200px; height: 100px;
+ border-bottom: solid 1px gray; margin-left: 10px; margin-top: 10px;}
+
+nav {width: 1201px; height: 50px;
+ border-bottom: solid 1px gray; margin-left: 10px; margin-top: 10px;}
+
+section {width: 800px; height: 400px;
+margin-top: 10px; border-bottom: solid 1px gray;
+float: left; margin-left: 10px;}
+
+aside {width: 370px; height: 400px;
+margin-top: 10px; border-bottom: solid 1px gray;
+float: left; margin-left: 29px;}
+
+footer {width: 1200px; height: 100px;
+margin-top: 10px; border-bottom: solid 1px gray;
+margin-left: 10px;}
+
+.clear {clear: both;}
+
 table, th, tr, td {
 	border: solid 1px black;
 	border-collapse: collapse;
     text-align: center;
-	padding: 8px;
+	padding: 12px;
     font-weight: bold;}
-h2 {text-align: center; width: 800px; position: relative; display: inline-block; background: linear-gradient(to top, #d2b5f4 60%, transparent 40%);}
+h2 {text-align: center; width: 800px; position: relative; display: inline-block; background: linear-gradient(to top, #d2b5f4 80%, transparent 40%);}
 table{width: 800px;}
 table th{width: 900px;}
 body {font-family: 나눔손글씨 다행체;}
@@ -25,82 +49,92 @@ body {font-family: 나눔손글씨 다행체;}
 </style>
 </head>
 <body>
-    
-<h2>디지털기술경영학과 20210328 박하늘 1학기 시간표</h2>
-<table>
-	<tr class="d8">
-		<th></th>
-        <th>월</th> 
-        <th>화</th> 
-        <th>수</th>
-        <th>목</th> 
-        <th>금</th> 
-        <th>토</th>
-	</tr>
-	<tr class="d8">
-		<td>1교시</td> 
-        <td></td> 
-        <td></td>
-        <td></td> 
-        <td></td> 
-        <td></td> 
-        <td class="d1">마케팅의 이해</td>
-    </tr>
-    <tr class="d8">
-        <td>2교시</td> 
-        <td></td> 
-        <td></td> 
-        <td></td> 
-        <td class="d2">디지털콘텐츠<br>비즈니스개론</td> 
-        <td></td> 
-        <td class="d4">웹프로그래밍</td>
-    </tr>    
-    <tr class="d8">
-        <td>3교시</td> 
-        <td></td> 
-        <td rowspan="2" class="d3">북한역사의이해</td> 
-        <td class="d7">대학영어회화2</td> 
-        <td rowspan="2" class="d1">마케팅의이해</td> 
-        <td></td> 
-        <td></td>
-    </tr>
-    <tr class="d8">
-        <td>4교시</td> 
-        <td></td>  
-        <td></td> 
-        <td></td> 
-        <td></td> 
-    </tr>
-    <tr class="d8">
-        <td>5교시</td> 
-        <td></td> 
-        <td rowspan="2" class="d4">웹프로그래밍</td> 
-        <td rowspan="2" class="d5">예술과 AI</td> 
-        <td rowspan="2" class="d2">디지털콘텐츠<br>비즈니스개론</td> 
-        <td rowspan="3" class="d6">AI시대의<br>인간과사회</td> 
-        <td></td>
-    </tr>
-    <tr class="d8">
-        <td>6교시</td> 
-        <td></td>   
-        <td></td> 
-    </tr>
-    <tr class="d8">
-        <td>7교시</td> 
-        <td></td> 
-        <td></td>  
-        <td></td> 
-        <td></td> 
-        <td class="d7">대학영어회화2</td>
-    </tr>
-</table>
 
-<h4> <a href="회원가입창.html">회원가입</a> </h4>
-<h4> <a href="rubato.html"> 루바토 펜션 안내</a></h4>
-<h4> <a href="festival.html"> 호서 국제 기타 페스티벌 안내</a></h4>
-<h4> <a href="야간개장.html"> 호서 야간 개장 안내</a></h4>
-<h4> <a href="sale.html"> 세일 안내장 </a></h4>
-<h4> <a href="schedule.html">월간 일정표</a></h4>
-<h4> <a href="shopping.html">쇼핑몰</a></h4>
+
+<header>
+  상단헤더
+</header>
+
+
+<nav>
+  내비게이션
+</nav>
+<section>
+    <h2>디지털기술경영학과 20210328 박하늘 1학기 시간표</h2>
+    <table>
+        <tr class="d8">
+            <th></th>
+            <th>월</th> 
+            <th>화</th> 
+            <th>수</th>
+            <th>목</th> 
+            <th>금</th> 
+            <th>토</th>
+        </tr>
+        <tr class="d8">
+            <td>1교시</td> 
+            <td></td> 
+            <td></td>
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td class="d1">마케팅의 이해</td>
+        </tr>
+        <tr class="d8">
+            <td>2교시</td> 
+            <td></td> 
+            <td></td> 
+            <td></td> 
+            <td class="d2">디지털콘텐츠<br>비즈니스개론</td> 
+            <td></td> 
+            <td class="d4">웹프로그래밍</td>
+        </tr>    
+        <tr class="d8">
+            <td>3교시</td> 
+            <td></td> 
+            <td rowspan="2" class="d3">북한역사의이해</td> 
+            <td class="d7">대학영어회화2</td> 
+            <td rowspan="2" class="d1">마케팅의이해</td> 
+            <td></td> 
+            <td></td>
+        </tr>
+        <tr class="d8">
+            <td>4교시</td> 
+            <td></td>  
+            <td></td> 
+            <td></td> 
+            <td></td> 
+        </tr>
+        <tr class="d8">
+            <td>5교시</td> 
+            <td></td> 
+            <td rowspan="2" class="d4">웹프로그래밍</td> 
+            <td rowspan="2" class="d5">예술과 AI</td> 
+            <td rowspan="2" class="d2">디지털콘텐츠<br>비즈니스개론</td> 
+            <td rowspan="3" class="d6">AI시대의<br>인간과사회</td> 
+            <td></td>
+        </tr>
+        <tr class="d8">
+            <td>6교시</td> 
+            <td></td>   
+            <td></td> 
+        </tr>
+        <tr class="d8">
+            <td>7교시</td> 
+            <td></td> 
+            <td></td>  
+            <td></td> 
+            <td></td> 
+            <td class="d7">대학영어회화2</td>
+        </tr>
+    </table>
+</section>
+<aside>
+   사이드바
+</aside>
+<div class="clear"></div>
+<footer>
+  하단푸터
+</footer>
 </body>
 </html>
